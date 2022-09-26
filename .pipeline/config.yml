@@ -1,6 +1,7 @@
 ###
  # This file configures the project "Piper" pipeline of your project.
  # For a reference of the configuration concept and available options, please have a look into its documentation. 
+ # test
 # 
 # The documentation for the most recent pipeline version can always be found at:
 # https://sap.github.io/jenkins-library/ 
@@ -30,7 +31,7 @@
           org: "8cb2cc46trial"
           space: "dev"
           credentialsId: "cfdeploy"
-          appName: ""
+          appName: "popo"
         mtaDeployParameters: "-f --version-rule ALL"
      artifactPrepareVersion:
         versioningType: "cloud_noTag"
