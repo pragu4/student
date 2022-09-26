@@ -1,0 +1,17 @@
+GET http://localhost:4004/catalog/Student
+
+###
+POST http://localhost:4004/catalog/Student
+Content-Type: application/json
+
+{"ID":4, "name":"Paresh", "add":"sydney"}
+
+###
+GET http://localhost:4004/catalog/cloth
+
+
+###
+POST http://localhost:4004/catalog/cloth
+Content-Type: application/json
+
+{"stu_ID":3, "Rs": 3000}

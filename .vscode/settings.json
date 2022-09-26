@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "database": "/home/user/projects/popo/student.db",
+            "name": "student sql db"
+        }
+    ]
+}
