@@ -27,11 +27,11 @@
     steps:
       cloudFoundryDeploy:
         cloudFoundry: 
-          apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-          org: "8cb2cc46trial"
+          apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+          org: "1dbc6c5etrial"
           space: "dev"
           credentialsId: "cfdeploy"
-          appName: "popo"
+          appName: "student"
         mtaDeployParameters: "-f --version-rule ALL"
      artifactPrepareVersion:
         versioningType: "cloud_noTag"
